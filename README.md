@@ -31,3 +31,8 @@ You can remove arrays for the stats if all the values are unused, otherwise if a
 
 # Custom mobs
 Mobs with custom damage stats can be made either by changing their default attributes, or by summoning them with an item in their offhand with the necessary tags already loaded (see `ovk:entity/mob/setup`)
+
+# Limitations
+All players have constant resistance to track the damage recived
+The health displayed on the health bar is a percentage of the max health, this means that if you either have 10/20 health or 1000/20000 it will still display as 5/10 full hearts
+Its quite intrusive but is compabile with most custom armor that uses AttributeModifiers
