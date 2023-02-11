@@ -1,6 +1,16 @@
 # Overkill
 Scoreboard based damage lib for survival datapacks (or maps)
 
+stats that use scoreboards
+- "regular" damage
+- melee damage
+- ranged damage
+- magic damage
+- health
+- max health
+- armor toughness
+- all other magic/mana related stuff
+
 This datapack is the culmination of multiple years of messing around with scoreboard based damage.
 
 It allows for seemless integration of scoreboard damage operations within survival scenarios.
