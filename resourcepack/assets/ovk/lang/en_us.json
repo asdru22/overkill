@@ -1,0 +1,34 @@
+{
+    "pack.ovk":"ovkanced ovkenturing",
+
+    "attribute.ovk.default":" %s %s",
+    "attribute.ovk.default_armor":"%s %s",
+
+    "attribute.ovk.damage":"Damage",
+    "attribute.ovk.max_health":"Max Health",
+    "attribute.ovk.melee_defense":"Melee Defense",
+    "attribute.ovk.ranged_defense":"Ranged Defense",
+    "attribute.ovk.magic_defense":"Magic Defense",
+    "attribute.ovk.max_mana":"Max Mana",
+    "attribute.ovk.melee_damage":"Melee Damage",
+    "attribute.ovk.ranged_damage":"Ranged Damage",
+    "attribute.ovk.magic_damage":"Magic Damage",
+    "attribute.ovk.fire_speed":"Fire Speed",
+    "attribute.ovk.bullet_spread":"Bullet Spread",
+    "attribute.ovk.ammo_conservation":"Ammo Conservation",
+    "attribute.ovk.mana_regen":"Mana Regeneration",
+    "attribute.ovk.mana_cost":"Mana",
+    "attribute.ovk.turret_damage":"Turret Damage",
+    "attribute.ovk.build_speed":"Build Speed",
+    "attribute.ovk.lifetime":"Lifetime",
+    "attribute.ovk.regen":"Regeneration",
+    "attribute.ovk.":"",
+    "item.ovk.set_bonus" :"Set Bonus",
+    "item.ovk.rarity" :"Rarity: %s",
+    "item.ovk.type.armor":"Armor",
+    "item.ovk.type.weapon":"Weapon",
+    "item.ovk.type.quest":"Quest Item",
+    "item.ovk.type.consumable":"Consumable",
+    "item.ovk.type.ingredient":"Ingredient"
+
+}

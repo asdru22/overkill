@@ -1,0 +1,1 @@
+execute as @a[tag=ovk.hp_update] run function ovk:entity/player/stats/health/update

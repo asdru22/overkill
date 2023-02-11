@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "tag": "ovk:usable",
+            "nbt":"{ovk:{usable:1b}}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "ovk:item/usable/main"
+    }
+  }

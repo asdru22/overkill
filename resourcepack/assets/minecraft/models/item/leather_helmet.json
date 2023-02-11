@@ -1,0 +1,13 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/leather_helmet",
+        "layer1": "item/leather_helmet_overlay"
+    },
+	"overrides": [
+		{"predicate": {"custom_model_data": 6530000}, "model": "ovk:item/archer_hat"},
+		{"predicate": {"custom_model_data": 6530001}, "model": "ovk:item/explorer_hat"},
+		{"predicate": {"custom_model_data": 6530002}, "model": "ovk:item/miner_helmet"},
+		{"predicate": {"custom_model_data": 6530003}, "model": "ovk:item/shellmet"}
+	]
+}

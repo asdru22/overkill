@@ -1,0 +1,31 @@
+{
+    "core":{
+        "name": "Examples!!",
+        "minecraft_id":"carrot_on_a_stick",
+        "type":"Melee",
+        "rarity":0,
+        "custom_model_data": 5,
+        "color" : 23532
+    },
+    "attributes":{
+        "melee":["damage","attack_speed","defense"],
+        "ranged":["damage","defense","fire_speed","bullet_spread","ammo_conservation"],
+        "magic":["damage","defense","max_mana","mana_regen","mana_cost"],
+        "turret":["damage","build_speed","lifetime"],
+        "health":["max","regen"],
+        "other":["movement_speed","armor_toughness","knockback_resistance"],
+        "vanilla":["damage","armor"]
+    },
+    "other":{
+        "additional_ovk_tag":"Hat:1b",
+        "additional_mc_tag":"Chicken_Nuget:3",
+        "lore":[
+            "drugs is cool",
+            "so is cat"
+        ],
+        "set_bonus":[
+            "Does hella damage when",
+            "in heat"
+        ]
+    }
+}

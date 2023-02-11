@@ -1,0 +1,81 @@
+{
+  "criteria": {
+    "mushhat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_horse_armor"
+            ],
+            "nbt": "{ovk:{id:\"mushhat\"}}"
+          }
+        ]
+      }
+    },
+    "shellmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_horse_armor"
+            ],
+            "nbt": "{ovk:{id:\"shellmet\"}}"
+          }
+        ]
+      }
+    },
+    "archer_hat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_horse_armor"
+            ],
+            "nbt": "{ovk:{id:\"archer_hat\"}}"
+          }
+        ]
+      }
+    },
+    "explorer_hat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_horse_armor"
+            ],
+            "nbt": "{ovk:{id:\"explorer_hat\"}}"
+          }
+        ]
+      }
+    },
+    "miner_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_horse_armor"
+            ],
+            "nbt": "{ovk:{id:\"miner_helmet\"}}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "mushhat",
+      "shellmet",
+      "archer_hat",
+      "explorer_hat",
+      "miner_helmet"
+    ]
+  ],
+  "rewards": {
+    "function": "ovk:gameplay/item/hat/unequip"
+  }
+}

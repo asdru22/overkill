@@ -1,0 +1,5 @@
+execute if entity @s[ovkancements={ovk:technical/inventory_changed/convert_health_attribute={helmet=true}}] run function ovk:entity/player/stats/health/convert_attribute/helmet
+execute if entity @s[ovkancements={ovk:technical/inventory_changed/convert_health_attribute={chestplate=true}}] run function ovk:entity/player/stats/health/convert_attribute/chestplate
+execute if entity @s[ovkancements={ovk:technical/inventory_changed/convert_health_attribute={leggings=true}}] run function ovk:entity/player/stats/health/convert_attribute/leggings
+execute if entity @s[ovkancements={ovk:technical/inventory_changed/convert_health_attribute={boots=true}}] run function ovk:entity/player/stats/health/convert_attribute/boots
+ovkancement revoke @s only ovk:technical/inventory_changed/convert_health_attribute

@@ -1,0 +1,1 @@
+#say hehe i kill player
