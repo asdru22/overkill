@@ -15,5 +15,9 @@ function ovk:entity/combat/apply_damage/ranged
 ```
 the damage amount is set via `$damage ovk.data`
 
-the pack also features an item generator to make loot tables of items with custom stats, you can find an example in `z_item_database`, the actual items must be put in the `items folder.
+# Generator
+the pack also features an item generator to make loot tables of items with custom stats, you can find an example in `z_item_database`, the actual items must be put in the `items` folder.
 You can remove arrays for the stats if all the values are unused, otherwise if at least one value is present, set all other unused values in that array to 0
+
+# Custom mobs
+Mobs with custom damage stats can be made either by changing their default attributes, or by summoning them with an item in their offhand with the necessary tags already loaded (see `ovk:entity/mob/setup`)
